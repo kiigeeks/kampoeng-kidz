@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply bg-whitePrimary font-inter flex flex-col justify-center;
+}
+
+* {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    scroll-behavior: smooth;
+    scrollbar-width: none !important;
+
+    /* menghilangkan scroll */
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: transparent transparent;
+    }
+
+    *::-webkit-scrollbar {
+        width: 0;
+    }
+
+    *::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    *::-webkit-scrollbar-thumb {
+        background-color: transparent;
+    }
+}
+
+.text-gradient-primary {
+    @apply text-transparent bg-gradient-to-r from-greenThird to-greenForth bg-clip-text
+}
