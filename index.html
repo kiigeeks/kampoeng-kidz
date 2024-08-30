@@ -15,8 +15,12 @@
         />
     </head>
     <body>
+        <div class="h-screen w-screen flex justify-center items-center">
+            <h1 class="text-xl font-roboto font-bold tracking-wider">Sorry, Under Maintenance 🥹</h1>
+        </div>
+        
         <!-- navbar -->
-        <nav class="h-[92px] w-screen fixed top-0 bg-whitePrimary shadow z-40 flex flex-col">
+        <nav class="hidden md:flex h-[92px] w-screen fixed top-0 bg-whitePrimary shadow z-40 flex-col">
             <div class="h-7 bg-yellowPrimary flex flex-row gap-3 justify-end items-center px-[60px] py-1">
                 <span class="font-roboto text-sm font-medium">Follow Us</span>
                 <a href="" class="w-[15px] h-[15px]">
@@ -52,7 +56,7 @@
         </nav>
 
         <!-- hero -->
-        <header class="mt-[85px] h-[calc(100vh-92px)] w-full bg-slate-400 swiper swiper-fades relative">
+        <header class="hidden md:block swiper swiper-fades mt-[85px] h-[calc(100vh-92px)] w-full bg-slate-400">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <img src="./dist/images/Slider-1.jpg" alt="slider" class="w-full h-full object-cover" loading="lazy">
@@ -67,7 +71,7 @@
         </header>
 
         <!-- main -->
-        <main class="w-screen flex flex-col gap-28 relative">
+        <main class="hidden md:flex w-screen flex-col gap-28 relative">
             <div class="w-[413px] h-[413px] rounded-full border-[10px] border-blueSecondary/30 absolute -top-72 right-20 -z-10"></div>
             <div class="w-[527px] h-[527px] rounded-full border-[10px] border-dashed border-greenSecondary/30 absolute -top-72 -left-40 -z-10"></div>
 
@@ -294,7 +298,7 @@
             </section>
         </main>
 
-        <footer class="w-full h-11 bg-yellow-500 flex justify-center items-center">
+        <footer class="hidden md:flex w-full h-11 bg-yellow-500 justify-center items-center">
             <h5 class="text-white font-inter text-sm tracking-wider">@Copyright 2024</h5>
         </footer>
 
