@@ -718,6 +718,94 @@ video {
   left: -9rem;
 }
 
+.-top-52 {
+  top: -13rem;
+}
+
+.-top-12 {
+  top: -3rem;
+}
+
+.right-1\/2 {
+  right: 50%;
+}
+
+.-top-56 {
+  top: -14rem;
+}
+
+.top-1 {
+  top: 0.25rem;
+}
+
+.-right-7 {
+  right: -1.75rem;
+}
+
+.right-\[10\%\] {
+  right: 10%;
+}
+
+.-top-40 {
+  top: -10rem;
+}
+
+.-right-20 {
+  right: -5rem;
+}
+
+.-bottom-52 {
+  bottom: -13rem;
+}
+
+.-bottom-40 {
+  bottom: -10rem;
+}
+
+.-bottom-56 {
+  bottom: -14rem;
+}
+
+.-bottom-36 {
+  bottom: -9rem;
+}
+
+.right-\[40\%\] {
+  right: 40%;
+}
+
+.right-\[35\%\] {
+  right: 35%;
+}
+
+.-bottom-24 {
+  bottom: -6rem;
+}
+
+.left-\[10\%\] {
+  left: 10%;
+}
+
+.bottom-40 {
+  bottom: 10rem;
+}
+
+.bottom-2 {
+  bottom: 0.5rem;
+}
+
+.bottom-5 {
+  bottom: 1.25rem;
+}
+
+.bottom-10 {
+  bottom: 2.5rem;
+}
+
+.bottom-14 {
+  bottom: 3.5rem;
+}
+
 .-z-10 {
   z-index: -10;
 }
@@ -1228,6 +1316,10 @@ video {
   background-color: rgb(255 228 23 / 0.5);
 }
 
+.bg-yellow-300\/95 {
+  background-color: rgb(253 224 71 / 0.95);
+}
+
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
@@ -1301,6 +1393,14 @@ video {
 
 .pt-\[182px\] {
   padding-top: 182px;
+}
+
+.pl-36 {
+  padding-left: 9rem;
+}
+
+.pl-32 {
+  padding-left: 8rem;
 }
 
 .text-center {
