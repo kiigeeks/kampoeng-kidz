@@ -33,11 +33,11 @@ body {
     }
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     header.swiper {
       display: none !important;
     }
-}
+} */
 
 .text-gradient-primary {
     @apply text-transparent bg-gradient-to-r from-greenThird to-greenForth bg-clip-text

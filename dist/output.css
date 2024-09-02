@@ -578,8 +578,16 @@ video {
   bottom: -5rem;
 }
 
+.-bottom-24 {
+  bottom: -6rem;
+}
+
 .-bottom-32 {
   bottom: -8rem;
+}
+
+.-bottom-52 {
+  bottom: -13rem;
 }
 
 .-bottom-96 {
@@ -590,12 +598,20 @@ video {
   bottom: -40%;
 }
 
-.-left-2 {
-  left: -0.5rem;
+.-left-20 {
+  left: -5rem;
+}
+
+.-left-36 {
+  left: -9rem;
 }
 
 .-left-40 {
   left: -10rem;
+}
+
+.-left-44 {
+  left: -11rem;
 }
 
 .-left-7 {
@@ -626,8 +642,20 @@ video {
   top: -8rem;
 }
 
+.-top-40 {
+  top: -10rem;
+}
+
 .-top-5 {
   top: -1.25rem;
+}
+
+.-top-52 {
+  top: -13rem;
+}
+
+.-top-56 {
+  top: -14rem;
 }
 
 .-top-72 {
@@ -636,6 +664,10 @@ video {
 
 .-top-\[35\%\] {
   top: -35%;
+}
+
+.bottom-14 {
+  bottom: 3.5rem;
 }
 
 .bottom-20 {
@@ -650,16 +682,16 @@ video {
   bottom: 12rem;
 }
 
-.left-0 {
-  left: 0px;
-}
-
 .left-1\/2 {
   left: 50%;
 }
 
 .left-1\/3 {
   left: 33.333333%;
+}
+
+.left-\[10\%\] {
+  left: 10%;
 }
 
 .left-\[25\%\] {
@@ -670,6 +702,10 @@ video {
   right: 0px;
 }
 
+.right-1\/2 {
+  right: 50%;
+}
+
 .right-1\/4 {
   right: 25%;
 }
@@ -678,8 +714,16 @@ video {
   right: 5rem;
 }
 
+.right-\[10\%\] {
+  right: 10%;
+}
+
 .right-\[20\%\] {
   right: 20%;
+}
+
+.right-\[35\%\] {
+  right: 35%;
 }
 
 .top-0 {
@@ -688,122 +732,6 @@ video {
 
 .top-1\/2 {
   top: 50%;
-}
-
-.-left-5 {
-  left: -1.25rem;
-}
-
-.-left-14 {
-  left: -3.5rem;
-}
-
-.-left-20 {
-  left: -5rem;
-}
-
-.-left-0 {
-  left: -0px;
-}
-
-.-left-32 {
-  left: -8rem;
-}
-
-.-left-44 {
-  left: -11rem;
-}
-
-.-left-36 {
-  left: -9rem;
-}
-
-.-top-52 {
-  top: -13rem;
-}
-
-.-top-12 {
-  top: -3rem;
-}
-
-.right-1\/2 {
-  right: 50%;
-}
-
-.-top-56 {
-  top: -14rem;
-}
-
-.top-1 {
-  top: 0.25rem;
-}
-
-.-right-7 {
-  right: -1.75rem;
-}
-
-.right-\[10\%\] {
-  right: 10%;
-}
-
-.-top-40 {
-  top: -10rem;
-}
-
-.-right-20 {
-  right: -5rem;
-}
-
-.-bottom-52 {
-  bottom: -13rem;
-}
-
-.-bottom-40 {
-  bottom: -10rem;
-}
-
-.-bottom-56 {
-  bottom: -14rem;
-}
-
-.-bottom-36 {
-  bottom: -9rem;
-}
-
-.right-\[40\%\] {
-  right: 40%;
-}
-
-.right-\[35\%\] {
-  right: 35%;
-}
-
-.-bottom-24 {
-  bottom: -6rem;
-}
-
-.left-\[10\%\] {
-  left: 10%;
-}
-
-.bottom-40 {
-  bottom: 10rem;
-}
-
-.bottom-2 {
-  bottom: 0.5rem;
-}
-
-.bottom-5 {
-  bottom: 1.25rem;
-}
-
-.bottom-10 {
-  bottom: 2.5rem;
-}
-
-.bottom-14 {
-  bottom: 3.5rem;
 }
 
 .-z-10 {
@@ -818,8 +746,8 @@ video {
   z-index: 10;
 }
 
-.z-40 {
-  z-index: 40;
+.z-20 {
+  z-index: 20;
 }
 
 .mx-auto {
@@ -987,6 +915,11 @@ video {
   height: 100vh;
 }
 
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 .min-h-\[500px\] {
   min-height: 500px;
 }
@@ -1085,10 +1018,6 @@ video {
 
 .w-screen {
   width: 100vw;
-}
-
-.flex-1 {
-  flex: 1 1 0%;
 }
 
 .flex-initial {
@@ -1298,8 +1227,8 @@ video {
   background-color: rgb(253 224 71 / var(--tw-bg-opacity));
 }
 
-.bg-yellow-300\/80 {
-  background-color: rgb(253 224 71 / 0.8);
+.bg-yellow-300\/95 {
+  background-color: rgb(253 224 71 / 0.95);
 }
 
 .bg-yellow-500 {
@@ -1314,10 +1243,6 @@ video {
 
 .bg-yellowPrimary\/50 {
   background-color: rgb(255 228 23 / 0.5);
-}
-
-.bg-yellow-300\/95 {
-  background-color: rgb(253 224 71 / 0.95);
 }
 
 .object-contain {
@@ -1343,6 +1268,11 @@ video {
   padding-right: 4rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .px-36 {
   padding-left: 9rem;
   padding-right: 9rem;
@@ -1356,11 +1286,6 @@ video {
 .px-9 {
   padding-left: 2.25rem;
   padding-right: 2.25rem;
-}
-
-.px-\[60px\] {
-  padding-left: 60px;
-  padding-right: 60px;
 }
 
 .py-1 {
@@ -1383,13 +1308,12 @@ video {
   padding-bottom: 2rem;
 }
 
-.px-32 {
-  padding-left: 8rem;
-  padding-right: 8rem;
-}
-
 .pb-24 {
   padding-bottom: 6rem;
+}
+
+.pl-32 {
+  padding-left: 8rem;
 }
 
 .pt-5 {
@@ -1398,14 +1322,6 @@ video {
 
 .pt-\[182px\] {
   padding-top: 182px;
-}
-
-.pl-36 {
-  padding-left: 9rem;
-}
-
-.pl-32 {
-  padding-left: 8rem;
 }
 
 .text-center {
@@ -1576,11 +1492,11 @@ body {
   }
 }
 
-@media (max-width: 767px) {
-  header.swiper {
-    display: none !important;
-  }
-}
+/* @media (max-width: 767px) {
+    header.swiper {
+      display: none !important;
+    }
+} */
 
 .text-gradient-primary {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
@@ -1623,5 +1539,14 @@ body {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:h-\[calc\(100vh-92px\)\] {
+    height: calc(100vh - 92px);
+  }
+
+  .md\:px-\[60px\] {
+    padding-left: 60px;
+    padding-right: 60px;
   }
 }

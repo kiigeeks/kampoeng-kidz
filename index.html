@@ -15,13 +15,13 @@
         />
     </head>
     <body>
-        <div class="h-screen w-screen flex md:hidden justify-center items-center">
+        <!-- <div class="h-screen w-screen flex md:hidden justify-center items-center">
             <h1 class="text-xl font-roboto font-bold tracking-wider">Sorry, Under Maintenance 🥹</h1>
-        </div>
+        </div> -->
 
         <!-- navbar -->
-        <nav class="hidden md:flex h-[92px] w-screen fixed top-0 bg-whitePrimary shadow z-40 flex-col">
-            <div class="h-7 bg-yellowPrimary flex flex-row gap-3 justify-end items-center px-[60px] py-1">
+        <nav class="flex h-[92px] w-screen fixed top-0 bg-whitePrimary shadow z-20 flex-col">
+            <div class="h-7 bg-yellowPrimary flex flex-row gap-3 justify-end items-center px-2 md:px-[60px] py-1">
                 <span class="font-roboto text-sm font-medium">Follow Us</span>
                 <a href="" class="w-[15px] h-[15px]">
                     <img src="./dist/images/FaInstagram.svg" alt="" class="w-full h-full object-cover">
@@ -39,11 +39,11 @@
                     <img src="./dist/images/FaWhatsapp.svg" alt="" class="w-full h-full object-cover">
                 </a>
             </div>
-            <div class="flex flex-row h-full justify-between items-center gap-20 px-[60px]">
+            <div class="flex flex-row h-full justify-between items-center gap-20 px-2 md:px-[60px]">
                 <div class="h-14  cursor-pointer">
                     <img src="./dist/images/Kampoeng-Kids.png" alt="" class="h-14 object-contain">
                 </div>
-                <div class="flex gap-10 font-normal font-roboto text-base">
+                <div class="hidden md:flex gap-10 font-normal font-roboto text-base">
                     <a href="index.html" class="text-gradient-primary">Home</a>
                     <a href="index.html" class="text-graySecondary/50 hover:text-graySecondary transition-opacity delay-75 duration-200">About Us</a>
                     <a href="index.html" class="text-graySecondary/50 hover:text-graySecondary transition-opacity delay-75 duration-200">Info</a>
@@ -56,7 +56,7 @@
         </nav>
 
         <!-- hero -->
-        <header class="hidden md:block swiper swiper-fades mt-[85px] h-[calc(100vh-92px)] w-full bg-slate-400">
+        <header class="hidden md:block swiper swiper-fades mt-[85px] h-fit md:h-[calc(100vh-92px)] w-full bg-slate-400">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <img src="./dist/images/Slider-1.jpg" alt="slider" class="w-full h-full object-cover" loading="lazy">
