@@ -20,8 +20,8 @@
         </div> -->
 
         <!-- navbar -->
-        <nav class="flex h-[92px] w-screen fixed top-0 bg-whitePrimary shadow z-20 flex-col">
-            <div class="h-7 bg-yellowPrimary flex flex-row gap-3 justify-end items-center px-2 md:px-[60px] py-1">
+        <nav class="flex h-[70px] md:h-[92px] w-screen fixed top-0 bg-whitePrimary shadow z-20 flex-col">
+            <div class="hidden h-5 md:h-7 bg-yellowPrimary md:flex flex-row gap-3 justify-end items-center px-2 md:px-[60px] py-1">
                 <span class="font-roboto text-sm font-medium">Follow Us</span>
                 <a href="" class="w-[15px] h-[15px]">
                     <img src="./dist/images/FaInstagram.svg" alt="" class="w-full h-full object-cover">
@@ -40,8 +40,8 @@
                 </a>
             </div>
             <div class="flex flex-row h-full justify-between items-center gap-20 px-2 md:px-[60px]">
-                <div class="h-14  cursor-pointer">
-                    <img src="./dist/images/Kampoeng-Kids.png" alt="" class="h-14 object-contain">
+                <div class="h-12 md:h-14 cursor-pointer">
+                    <img src="./dist/images/Kampoeng-Kids.png" alt="" class="h-12 md:h-14 object-contain">
                 </div>
                 <div class="hidden md:flex gap-10 font-normal font-roboto text-base">
                     <a href="index.html" class="text-gradient-primary">Home</a>
@@ -56,71 +56,69 @@
         </nav>
 
         <!-- hero -->
-        <header class="hidden md:block swiper swiper-fades mt-[85px] h-fit md:h-[calc(100vh-92px)] w-full bg-slate-400">
+        <header class="hidden md:block swiper swiper-fades mt-[70px] md:mt-[85px] h-[50vh] md:h-[calc(100vh-92px)] w-full bg-slate-400">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <img src="./dist/images/Slider-1.jpg" alt="slider" class="w-full h-full object-cover" loading="lazy">
                 </div>
                 <div class="swiper-slide">
-                    <img src="./dist/images/Slider-1.jpeg" alt="slider" class="w-full h-full object-cover" loading="lazy">
+                    <img src="./dist/images/Slider-2.jpg" alt="slider" class="w-full h-full object-cover" loading="lazy">
                 </div>
                 <div class="swiper-slide">
-                    <img src="./dist/images/Slider-2.jpeg" alt="slider" class="w-full h-full object-cover" loading="lazy">
+                    <img src="./dist/images/Slider-3.jpg" alt="slider" class="w-full h-full object-cover" loading="lazy">
                 </div>
             </div>
         </header>
 
         <!-- main -->
-        <main class="hidden md:flex w-screen flex-col gap-28 relative">
-            <div class="w-[413px] h-[413px] rounded-full border-[10px] border-blueSecondary/30 absolute -top-72 right-20 -z-10"></div>
-            <div class="w-[527px] h-[527px] rounded-full border-[10px] border-dashed border-greenSecondary/30 absolute -top-72 -left-40 -z-10"></div>
+        <main class="flex w-screen flex-col gap-24 md:gap-28 relative">
+            <div class="w-[213px] md:w-[413px] h-[213px] md:h-[413px] rounded-full border-[10px] border-blueSecondary/30 absolute -top-48 md:-top-72 right-0 md:right-20 -z-10"></div>
+            <div class="w-[300px] md:w-[527px] h-[300px] md:h-[527px] rounded-full border-[10px] border-dashed border-greenSecondary/30 absolute -top-32 md:-top-72 -left-28 md:-left-40 -z-10"></div>
 
             <!-- title -->
-            <section class="h-[500px] relative flex flex-row justify-center items-center gap-20 px-36">
-                <div class="w-[100px] h-[100px] rounded-full border-[10px] border-yellowPrimary/30 absolute -left-7 top-1/2 transform -translate-y-1/2 -z-20"></div>
-                <div class="h-[400px]">
-                    <img src="./dist/images/Kampoeng-Kids-2.png" alt="icon" loading="lazy" class="h-[400px] object-contain">
+            <section class="h-[500px] relative flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20 px-5 md:px-36">
+                <div class="w-[90px] md:w-[100px] h-[90px] md:h-[100px] rounded-full border-[10px] border-yellowPrimary/30 absolute -left-14 md:-left-7 top-44 md:top-1/2 transform -translate-y-1/2 -z-20"></div>
+                <div class="h-[200px] md:h-[400px]">
+                    <img src="./dist/images/Kampoeng-Kids-2.png" alt="icon" loading="lazy" class="h-[200px] md:h-[400px] object-contain">
                 </div>
                 <div class="flex justify-center relative">
-                    <h1 class="font-inter font-bold text-4xl text-gradient-primary tracking-widest">
+                    <h1 class="font-inter font-bold text-2xl md:text-4xl text-gradient-primary tracking-widest text-justify md:text-start">
                         Surganya Belajar dan Bermain untuk Anak-anak di Indonesia
                     </h1>
-                    <div class="w-[100px] h-[100px] rounded-full border-[10px] border-dashed border-greenSecondary/30 absolute -bottom-20 right-0 -z-10"></div>
+                    <div class="w-[90px] md:w-[100px] h-[90px] md:h-[100px] rounded-full border-[10px] border-dashed border-greenSecondary/30 absolute -bottom-20 -right-5 md:right-0 -z-10"></div>
                 </div>
-                <div class="w-[100px] h-[100px] rounded-full border-[10px] border-yellowPrimary/30 absolute -bottom-10 left-1/3 transform -translate-x-1/3 -z-20"></div>
+                <div class="w-[90px] md:w-[100px] h-[90px] md:h-[100px] rounded-full border-[10px] border-yellowPrimary/30 absolute -bottom-28 md:-bottom-10 left-1/3 transform -translate-x-1/3 -z-20"></div>
             </section>
 
             <!-- about -->
-            <section class="h-[650px] flex flex-row justify-around gap-16 pl-32 relative">
-                <div class="w-[465px] flex-initial flex flex-col gap-6 relative">
+            <section class="mt-10 md:mt-0 h-[650px] flex flex-col-reverse md:flex-row justify-around gap-10 md:gap-16 pl-5 pr-5 md:pl-32 md:pr-0 relative">
+                <div class="w-full md:w-[465px] flex-initial flex flex-col gap-3 md:gap-6 relative">
                     <h1 class="font-semibold text-2xl text-gradient-primary tracking-wider">Kampoeng Kidz</h1>
-                    <p class="mt-3 text-base text-justify font-roboto tracking-wider">
+                    <p class="mt-1 md:mt-3 text-base text-justify font-roboto tracking-wider">
                         merupakan taman edukasi seluas 25 hektare yang berlokasi di Desa Pandanrejo, Kota Wisata Batu, Jawa Timur. Dalam sistemnya, Kampoeng Kidz menggunakan metode experiential Learning yang menarik, interaktif dan menyenangkan loh untuk anak-anak bangsa sebagai bentuk pengembangan life skill mereka.
                     </p>
                     <p class="text-base text-justify font-roboto tracking-wider">
                         Putra-putri kesayangan nantinya akan diajak berpetualang dan bereksperimen serta mempelajari banyak hal terkait science dan nilai-nilai kehidupan secara fun, menari dan bernyanyi.
                     </p>
-
                     <div class="w-[114px] h-[114px] rounded-full border-[10px] border-blueSecondary/30 absolute bottom-32 left-1/2 transform -translate-x-1/2 -z-20"></div>
                     <div class="w-[90px] h-[90px] rounded-full border-[10px] border-dashed border-greenSecondary/30 absolute bottom-48 right-1/4 transform -translate-x-1/4 -z-10"></div>
                 </div>
-                <div class="w-[530px] flex-initial flex justify-end relative">
-                    <div class="w-[316px] h-[316px] rounded-full border-8 border-yellowPrimary/80 absolute -left-44 -top-5 shadow-md">
+                <div class="w-full md:w-[530px] flex-initial flex justify-end relative">
+                    <div class="w-[150px] md:w-[316px] h-[150px] md:h-[316px] rounded-full border-8 border-yellowPrimary/80 absolute left-0 md:-left-44 -top-5 shadow-md">
                         <img src="./dist/images/Slider-1.jpeg" alt="" loading="lazy" class="w-full h-full object-cover rounded-full">
                     </div>
-                    <div class="w-[350px] h-[350px] rounded-full bg-yellowPrimary/50 absolute -left-36 top-0 -z-20 blur-2xl"></div>
-                    <div class="w-[400px] h-[400px] rounded-full bg-yellowPrimary/50 absolute -right-4 -top-3 -z-20 blur-2xl"></div>
-                    <div class="w-[400px] h-[400px] rounded-full bg-yellowPrimary/50 absolute -right-4 bottom-20 -z-20 blur-2xl"></div>
-                    <div class="w-[530px] h-[530px] rounded-full border-8 border-greenSecondary absolute -z-10 -right-5">
+                    <div class="w-[150px] md:w-[350px] h-[150px] md:h-[350px] rounded-full bg-yellowPrimary/50 absolute -left-36 top-0 -z-20 blur-2xl"></div>
+                    <div class="w-[200x] md:w-[400px] h-[200px] md:h-[400px] rounded-full bg-yellowPrimary/50 absolute -right-4 -top-3 -z-20 blur-2xl"></div>
+                    <div class="w-[200x] md:w-[400px] h-[200px] md:h-[400px] rounded-full bg-yellowPrimary/50 absolute -right-4 bottom-20 -z-20 blur-2xl"></div>
+                    <div class="w-[300px] md:w-[530px] h-[300px] md:h-[530px] rounded-full border-8 border-greenSecondary ">
                         <img src="./dist/images/Slider-2.jpeg" alt="" loading="lazy" class="w-full h-full object-cover rounded-full">
                     </div>
                 </div>
-
             </section>
 
             <!-- map -->
-            <section class="min-h-[650px] flex flex-col justify-center items-center gap-10 px-36">
-                <h2 class="font-medium font-roboto text-4xl tracking-wider">
+            <section class="md:min-h-[650px] flex flex-col justify-center items-center gap-10 px-5 md:px-36">
+                <h2 class="font-medium font-roboto text-2xl md:text-4xl tracking-wider">
                     Kampoeng Kidz Map
                 </h2>
                 <div class="relative">
@@ -129,7 +127,7 @@
             </section>
 
             <!-- zona -->
-            <section class="h-[806px] flex flex-col justify-center items-center w-full bg-slate-200 swiper swiper-fades">
+            <section class="h-fit md:h-[806px] flex flex-col justify-center items-center w-full bg-slate-200 swiper swiper-fades">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="./dist/images/Zona-1.jpg" alt="" class="w-full h-full object-cover" loading="lazy">
@@ -145,42 +143,50 @@
 
             <!-- program -->
             <section class="min-h-[500px] flex flex-col justify-center items-center gap-10 px-16 relative">
-                <div class="w-[230px] h-[230px] rounded-full border-[10px] border-yellowPrimary/30 absolute -top-[35%] right-[20%] -z-20"></div>
-                <div class="w-[115px] h-[115px] rounded-full border-[10px] border-blueSecondary/30 absolute -top-24 -left-7 -z-10"></div>
+                <div class="w-[170px] md:w-[230px] h-[170px] md:h-[230px] rounded-full border-[10px] border-yellowPrimary/30 absolute -top-[45%] md:-top-[35%] right-0 md:right-[20%] -z-20"></div>
+                <div class="w-[115px] h-[115px] rounded-full border-[10px] border-blueSecondary/30 absolute -top-32 md:-top-24 -left-14 md:-left-7 -z-10"></div>
                 <div class="flex flex-col justify-center items-center gap-10 absolute top-0">
-                    <h2 class="font-bold font-inter text-4xl text-gradient-primary tracking-widest">
+                    <h2 class="font-bold font-inter text-2xl md:text-4xl text-gradient-primary tracking-widest">
                         Program
                     </h2>
-                    <div class="flex flex-row justify-center items-start gap-12 ">
-                        <div class="px-5 pt-5 pb-24 flex flex-col items-center gap-11 bg-yellowPrimary rounded-full group cursor-pointer">
-                            <img src="./dist/images/Slider-1.jpeg" alt="" loading="lazy" class="w-[255px] h-[255px] rounded-full object-cover">
-                            <h2 class="font-semibold font-inter text-xl">Smart Kidz</h2>
-                            <p class="w-[255px] text-sm text-justify font-inter px-5 h-[300px] hidden group-hover:flex transition-all delay-300 duration-500 ease-in-out opacity-0 transform scale-95 group-hover:opacity-100 group-hover:scale-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet veritatis recusandae sit adipisci impedit porro tempora. Animi tenetur, molestias eius cum optio, ut similique sunt saepe dignissimos reiciendis quo vitae!</p>
+                    <div class="flex flex-row w-screen overflow-scroll justify-start md:justify-center items-start gap-10 md:gap-12 px-5 md:px-0">
+                        <div class="px-5 pt-5 pb-10 md:pb-24 flex flex-col items-center gap-11 bg-yellowPrimary rounded-full group cursor-pointer">
+                            <img src="./dist/images/Slider-1.jpeg" alt="" loading="lazy" class="w-[200px] md:w-[255px] h-[200px] md:h-[255px] rounded-full object-cover">
+                            <h2 class="font-semibold font-inter text-base md:text-xl">Smart Kidz</h2>
+                            <p class="w-[200px] md:w-[255px] text-xs md:text-sm text-justify font-inter px-0 md:px-5 h-[200px] md:h-[300px] md:hidden md:group-hover:flex transition-all delay-300 duration-500 ease-in-out md:opacity-0 transform scale-95 md:group-hover:opacity-100 group-hover:scale-100">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet veritatis recusandae sit adipisci impedit porro tempora. Animi tenetur, molestias eius cum optio, ut similique sunt saepe dignissimos reiciendis quo vitae!
+                            </p>
                         </div>
-                        <div class="px-5 pt-5 pb-24 flex flex-col items-center gap-11 bg-greenPrimary rounded-full group cursor-pointer">
-                            <img src="./dist/images/Slider-2.jpeg" alt="" loading="lazy" class="w-[255px] h-[255px] rounded-full object-cover">
-                            <h2 class="font-semibold font-inter text-xl">Brave Kidz</h2>
-                            <p class="w-[255px] text-sm text-justify font-inter px-5 h-[300px] hidden group-hover:flex transition-all delay-300 duration-500 ease-in-out opacity-0 transform scale-95 group-hover:opacity-100 group-hover:scale-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet veritatis recusandae sit adipisci impedit porro tempora. Animi tenetur, molestias eius cum optio, ut similique sunt saepe dignissimos reiciendis quo vitae!</p>
+                        <div class="px-5 pt-5 pb-10 md:pb-24 flex flex-col items-center gap-11 bg-greenPrimary rounded-full group cursor-pointer">
+                            <img src="./dist/images/Slider-2.jpeg" alt="" loading="lazy" class="w-[200px] md:w-[255px] h-[200px] md:h-[255px] rounded-full object-cover">
+                            <h2 class="font-semibold font-inter text-base md:text-xl">Brave Kidz</h2>
+                            <p class="w-[200px] md:w-[255px] text-xs md:text-sm text-justify font-inter px-0 md:px-5 h-[200px] md:h-[300px] md:hidden md:group-hover:flex transition-all delay-300 duration-500 ease-in-out md:opacity-0 transform scale-95 md:group-hover:opacity-100 group-hover:scale-100">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet veritatis recusandae sit adipisci impedit porro tempora. Animi tenetur, molestias eius cum optio, ut similique sunt saepe dignissimos reiciendis quo vitae!
+                            </p>
                         </div>
-                        <div class="px-5 pt-5 pb-24 flex flex-col items-center gap-11 bg-yellowPrimary rounded-full group cursor-pointer">
-                            <img src="./dist/images/Slider-1.jpeg" alt="" loading="lazy" class="w-[255px] h-[255px] rounded-full object-cover">
-                            <h2 class="font-semibold font-inter text-xl">Super Kidz</h2>
-                            <p class="w-[255px] text-sm text-justify font-inter px-5 h-[300px] hidden group-hover:flex transition-all delay-300 duration-500 ease-in-out opacity-0 transform scale-95 group-hover:opacity-100 group-hover:scale-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet veritatis recusandae sit adipisci impedit porro tempora. Animi tenetur, molestias eius cum optio, ut similique sunt saepe dignissimos reiciendis quo vitae!</p>
+                        <div class="px-5 pt-5 pb-10 md:pb-24 flex flex-col items-center gap-11 bg-yellowPrimary rounded-full group cursor-pointer">
+                            <img src="./dist/images/Slider-1.jpeg" alt="" loading="lazy" class="w-[200px] md:w-[255px] h-[200px] md:h-[255px] rounded-full object-cover">
+                            <h2 class="font-semibold font-inter text-base md:text-xl">Super Kidz</h2>
+                            <p class="w-[200px] md:w-[255px] text-xs md:text-sm text-justify font-inter px-0 md:px-5 h-[200px] md:h-[300px] md:hidden md:group-hover:flex transition-all delay-300 duration-500 ease-in-out md:opacity-0 transform scale-95 md:group-hover:opacity-100 group-hover:scale-100">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet veritatis recusandae sit adipisci impedit porro tempora. Animi tenetur, molestias eius cum optio, ut similique sunt saepe dignissimos reiciendis quo vitae!
+                            </p>
                         </div>
-                        <div class="px-5 pt-5 pb-24 flex flex-col items-center gap-11 bg-greenPrimary rounded-full group cursor-pointer">
-                            <img src="./dist/images/Slider-2.jpeg" alt="" loading="lazy" class="w-[255px] h-[255px] rounded-full object-cover">
-                            <h2 class="font-semibold font-inter text-xl text-wrap">Graduation Program</h2>
-                            <p class="w-[255px] text-sm text-justify font-inter px-5 h-[300px] hidden group-hover:flex transition-all delay-300 duration-500 ease-in-out opacity-0 transform scale-95 group-hover:opacity-100 group-hover:scale-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet veritatis recusandae sit adipisci impedit porro tempora. Animi tenetur, molestias eius cum optio, ut similique sunt saepe dignissimos reiciendis quo vitae!</p>
+                        <div class="px-5 pt-5 pb-10 md:pb-24 flex flex-col items-center gap-11 bg-greenPrimary rounded-full group cursor-pointer">
+                            <img src="./dist/images/Slider-2.jpeg" alt="" loading="lazy" class="w-[200px] md:w-[255px] h-[200px] md:h-[255px] rounded-full object-cover">
+                            <h2 class="font-semibold font-inter text-base md:text-xl text-wrap">Graduation Program</h2>
+                            <p class="w-[200px] md:w-[255px] text-xs md:text-sm text-justify font-inter px-0 md:px-5 h-[200px] md:h-[300px] md:hidden md:group-hover:flex transition-all delay-300 duration-500 ease-in-out md:opacity-0 transform scale-95 md:group-hover:opacity-100 group-hover:scale-100">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet veritatis recusandae sit adipisci impedit porro tempora. Animi tenetur, molestias eius cum optio, ut similique sunt saepe dignissimos reiciendis quo vitae!
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="w-[100px] h-[100px] rounded-full border-[10px] border-yellowPrimary/30 absolute -bottom-32 left-[25%] -z-10"></div>
-                <div class="w-[375px] h-[375px] rounded-full border-[10px] border-dashed border-greenSecondary/30 absolute -bottom-[40%] left-1/2 -z-10"></div>
+                <div class="w-[250px] md:w-[375px] h-[250px] md:h-[375px] rounded-full border-[10px] border-dashed border-greenSecondary/30 absolute -bottom-[40%] left-10 md:left-1/2 -z-10"></div>
                 <div class="w-[153px] h-[153px] rounded-full border-[10px] border-blueSecondary/30 absolute -bottom-96 right-0 -z-10"></div>
             </section>
 
             <!-- hotel -->
-            <section class="mt-80 h-[753px] flex flex-col justify-center items-center relative w-full swiper swiper-fades">
+            <section class="mt-44 md:mt-80 h-[300px] md:h-[753px] flex flex-col justify-center items-center relative w-full swiper swiper-fades">
                 <div class="w-full h-full swiper-wrapper">
                     <div class="w-full h-full swiper-slide">
                         <img src="./dist/images/Hotel-1.jpg" alt="" class="w-full h-full object-cover" loading="lazy">
@@ -189,38 +195,38 @@
                         <img src="./dist/images/Hotel-2.jpg" alt="" class="w-full h-full object-cover" loading="lazy">
                     </div>
                 </div>
-                <div class="flex flex-col justify-center items-center gap-7 w-[650px] z-10 absolute inset-0 mx-auto">
-                    <div class="flex flex-col font-inter font-bold text-4xl text-white text-center tracking-wide">
+                <div class="flex flex-col justify-center items-center gap-7 w-11/12 md:w-[650px] z-10 absolute inset-0 mx-auto">
+                    <div class="flex flex-col font-inter font-bold text-xl md:text-4xl text-white text-center tracking-wide">
                         <h1>Hotel</h1>
                         <h1>Transformer Center</h1>
                     </div>
-                    <p class="text-white text-base font-normal font-roboto text-center">
+                    <p class="text-white text-xs md:text-base font-normal font-roboto text-center">
                         Lorem ipsum dolor sit amet consectetur. Vel ipsum dolor at massa. Mauris gravida non odio volutpat diam volutpat gravida. Et accumsan sapien egestas proin non mattis consequat id nisl. Aliquam quisque varius porta sed.
                     </p>
-                    <button class="mt-1 py-1 px-5 bg-yellow-300 rounded-2xl text-base font-medium font-roboto tracking-wide">
+                    <button class="mt-1 py-1 px-5 bg-yellow-300 rounded-2xl text-sm md:text-base font-medium font-roboto tracking-wide">
                         Book Now
                     </button>
                 </div>
             </section>
 
             <!-- testimonial -->
-            <section class="mt-14 flex flex-col justify-center items-center gap-5 px-16 relative">
-                <div class="w-[375px] h-[375px] rounded-full border-[10px] border-dashed border-greenSecondary/30 absolute -top-52 -left-20 -z-10"></div>
-                <div class="w-[153px] h-[153px] rounded-full border-[10px] border-blueSecondary/30 absolute -top-56 right-1/2 -z-10"></div>
-                <div class="w-[100px] h-[100px] rounded-full border-[10px] border-yellowPrimary/30 absolute right-[10%] -top-40 -z-20"></div>
+            <section class="mt-0 md:mt-14 md:flex flex-col justify-center items-center gap-5 px-5 md:px-16 relative">
+                <div class="w-[150px] md:w-[375px] h-[150px] md:h-[375px] rounded-full border-[10px] border-dashed border-greenSecondary/30 absolute -top-52 -left-20 -z-10"></div>
+                <div class="w-[75px] md:w-[153px] h-[75px] md:h-[153px] rounded-full border-[10px] border-blueSecondary/30 absolute -top-48 md:-top-56 rigth-[99%] md:right-1/2 -z-10"></div>
+                <div class="w-[100px] h-[100px] rounded-full border-[10px] border-yellowPrimary/30 absolute right-0 md:right-[10%] -top-56 md:-top-40 -z-20"></div>
 
-                <h2 class="font-bold font-inter text-4xl text-gradient-primary tracking-widest">
+                <h2 class="font-bold font-inter text-center text-2xl md:text-4xl text-gradient-primary tracking-widest">
                     Testimonial
                 </h2>
-                <div class="w-full flex flex-row gap-3 justify-between items-center">
-                    <div class="w-9 h-9 p-2">
+                <div class="w-full flex flex-row gap-0 md:gap-3 justify-between items-center">
+                    <div class="swiper-prev w-9 h-9 p-2">
                         <img src="./dist/images/Prev-Icon.svg" alt="Prev" class="w-full h-full object-contain" loading="lazy">
                     </div>
-                    <div>
-                        <div class="flex flex-row gap-14 py-28 w-full h-full">
-                            <div class="w-[345px] h-[345px] bg-white rounded-2xl shadow-xl flex flex-col gap-10 relative px-9 py-14">
+                    <div class="swiper swiperTestimonial w-full">
+                        <div class="flex flex-row gap-2 md:gap-14 py-20 md:py-28 w-full h-full swiper-wrapper">
+                            <div class="w-[345px] h-[345px] bg-white rounded-2xl shadow-none md:shadow-xl flex flex-col gap-10 relative px-5 md:px-9 py-14 swiper-slide">
                                 <div class="flex flex-col gap-5 items-center absolute -top-10 left-1/2 transform -translate-x-1/2">
-                                    <div class="w-20 h-20 rounded-full shadow-xl border border-white">
+                                    <div class="w-20 h-20 rounded-full shadow-none md:shadow-xl border border-white">
                                         <img src="./dist/images/Slider-1.jpeg" loading="lazy" alt="User" class="w-full h-full object-cover rounded-full">
                                     </div>
                                 </div>
@@ -229,9 +235,9 @@
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure consequatur maiores beatae, officia distinctio repudiandae porro tempore magni
                                 </p>
                             </div>
-                            <div class="w-[345px] h-[345px] bg-white rounded-2xl shadow-xl flex flex-col gap-10 relative px-9 py-14">
+                            <div class="w-[345px] h-[345px] bg-white rounded-2xl shadow-none md:shadow-xl flex flex-col gap-10 relative px-5 md:px-9 py-14 swiper-slide">
                                 <div class="flex flex-col gap-5 items-center absolute -top-10 left-1/2 transform -translate-x-1/2">
-                                    <div class="w-20 h-20 rounded-full shadow-xl border border-white">
+                                    <div class="w-20 h-20 rounded-full shadow-none md:shadow-xl border border-white">
                                         <img src="./dist/images/Slider-1.jpeg" loading="lazy" alt="User" class="w-full h-full object-cover rounded-full">
                                     </div>
                                 </div>
@@ -240,9 +246,9 @@
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure consequatur maiores beatae, officia distinctio repudiandae porro tempore magni
                                 </p>
                             </div>
-                            <div class="w-[345px] h-[345px] bg-white rounded-2xl shadow-xl flex flex-col gap-10 relative px-9 py-14">
+                            <div class="w-[345px] h-[345px] bg-white rounded-2xl shadow-none md:shadow-xl flex flex-col gap-10 relative px-5 md:px-9 py-14 swiper-slide">
                                 <div class="flex flex-col gap-5 items-center absolute -top-10 left-1/2 transform -translate-x-1/2 ">
-                                    <div class="w-20 h-20 rounded-full shadow-xl border border-white">
+                                    <div class="w-20 h-20 rounded-full shadow-none md:shadow-xl border border-white">
                                         <img src="./dist/images/Slider-1.jpeg" loading="lazy" alt="User" class="w-full h-full object-cover rounded-full">
                                     </div>
                                 </div>
@@ -252,46 +258,45 @@
                                 </p>
                             </div>
                         </div>
-
                     </div>
-                    <div class="w-9 h-9 p-2">
+                    <div class="swiper-next w-9 h-9 p-2">
                         <img src="./dist/images/Next-Icon.svg" alt="Next" class="w-full h-full object-contain" loading="lazy">
                     </div>
                 </div>
 
-                <div class="w-[375px] h-[375px] rounded-full border-[10px] border-dashed border-greenSecondary/30 absolute -bottom-52 right-0 -z-10"></div>
-                <div class="w-[153px] h-[153px] rounded-full border-[10px] border-blueSecondary/30 absolute -bottom-24 right-[35%] -z-10"></div>
+                <div class="w-[170px] md:w-[375px] h-[170px] md:h-[375px] rounded-full border-[10px] border-dashed border-greenSecondary/30 absolute bottom-0 md:-bottom-52 right-0 -z-10"></div>
+                <div class="w-[100px] md:w-[153px] h-[100px] md:h-[153px] rounded-full border-[10px] border-blueSecondary/30 absolute bottom-5 md:-bottom-24 right-[50%] md:right-[35%] -z-10"></div>
                 <div class="w-[100px] h-[100px] rounded-full border-[10px] border-yellowPrimary/30 absolute left-[10%] bottom-14 -z-10"></div>
             </section>
 
             <!-- google map -->
-            <section class="pt-[182px]">
+            <section class="pt-20 md:pt-[182px]">
                 <div class="relative">
-                    <div class="absolute -top-32 left-1/2 transform -translate-x-1/2 bg-yellow-300/95 rounded-2xl py-8 px-36 flex flex-col gap-12">
-                        <h1 class="font-bold text-4xl text-center">Contact Us</h1>
+                    <div class="absolute -top-32 left-1/2 transform -translate-x-1/2 bg-yellow-300/95 rounded-2xl py-6 md:py-8 px-10 md:px-36 w-11/12 md:w-fit flex flex-col gap-7 md:gap-12">
+                        <h1 class="font-bold text-2xl md:text-4xl text-center">Contact Us</h1>
                         <div class="flex flex-col">
-                            <h5 class="text-xl font-medium">Customer Event Project</h5>
+                            <h5 class="text-base md:text-xl font-medium">Customer Event Project</h5>
                             <div class="mt-2 flex flex-row items-center p-1 gap-2">
-                                <img src="./dist/images/Location.svg" loading="lazy" alt="Location" class="w-5 h-5">
-                                <span class="text-sm font-normal">
+                                <img src="./dist/images/Location.svg" loading="lazy" alt="Location" class="w-4 md:w-5 h-4 md:h-5">
+                                <span class="text-xs md:text-sm font-normal">
                                     Jl. Pandanrejo, No.2, Batu Jatim
                                 </span>
                             </div>
                             <div class="flex flex-row items-center p-1 gap-2">
-                                <img src="./dist/images/Phone.svg" loading="lazy" alt="Phone" class="w-5 h-5">
-                                <span class="text-sm font-normal">
+                                <img src="./dist/images/Phone.svg" loading="lazy" alt="Phone" class="w-4 md:w-5 h-4 md:h-5">
+                                <span class="text-xs md:text-sm font-normal">
                                     085 9999 999
                                 </span>
                             </div>
                             <div class="flex flex-row items-center p-1 gap-2">
-                                <img src="./dist/images/Mail.svg" loading="lazy" alt="Mail" class="w-5 h-5">
-                                <span class="text-sm font-normal">
+                                <img src="./dist/images/Mail.svg" loading="lazy" alt="Mail" class="w-4 md:w-5 h-4 md:h-5">
+                                <span class="text-xs md:text-sm font-normal">
                                     info@transormercenter.com
                                 </span>
                             </div>
                             <div class="flex flex-row items-center p-1 gap-2">
-                                <img src="./dist/images/Web.svg" loading="lazy" alt="Web" class="w-5 h-5">
-                                <span class="text-sm font-normal">
+                                <img src="./dist/images/Web.svg" loading="lazy" alt="Web" class="w-4 md:w-5 h-4 md:h-5">
+                                <span class="text-xs md:text-sm font-normal">
                                     www.transformercenter.com
                                 </span>
                             </div>
@@ -324,6 +329,32 @@
                 pagination: {
                     el: ".swiper-pagination",
                     clickable: true,
+                },
+            });
+
+            var swiperTestimonial = new Swiper(".swiperTestimonial", {
+                centeredSlides: true,
+                slidesPerView: 1,
+                spaceBetween: 10,
+                navigation: {
+                    nextEl: ".swiper-next",
+                    prevEl: ".swiper-prev",
+                },
+                mousewheel: true,
+                keyboard: true,
+                breakpoints: {
+                    640: {
+                        slidesPerView: 1,
+                        spaceBetween: 5,
+                    },
+                    // 768: {
+                    //     slidesPerView: 4,
+                    //     spaceBetween: 40,
+                    // },
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                    },
                 },
             });
         </script>
